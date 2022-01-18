@@ -12,7 +12,7 @@ public class TestV1 {
         // Предусловия
         given()
                 .baseUri("https://postman-echo.com")
-                .body("some value") // отправляемые данные (заголовки и query можно выставлять аналогично)
+                .body("V1") // отправляемые данные (заголовки и query можно выставлять аналогично)
                 // Выполняемые действия
                 .when()
                 .post("/post")
